@@ -1,0 +1,7 @@
+*.pyc
+env/
+foto/
+media/
+static/
+*.sqlite3
+.idea/
