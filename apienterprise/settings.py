@@ -24,7 +24,7 @@ SECRET_KEY = '_v7i-c+=tu36i%f!=nio*3c^))h#goxfi43ehppyf*y^=b=18*'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["ec2-3-22-68-55.us-east-2.compute.amazonaws.co"]
+ALLOWED_HOSTS = ["ec2-3-22-68-55.us-east-2.compute.amazonaws.com"]
 
 
 # Application definition
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://ec2-18-221-24-17.us-east-2.compute.amazonaws.com/"]
+CORS_ALLOWED_ORIGINS = ["http://localhost:3000", "http://ec2-18-221-24-17.us-east-2.compute.amazonaws.com"]
 
 ROOT_URLCONF = 'apienterprise.urls'
 
